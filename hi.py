@@ -5,3 +5,6 @@ def hi(name):
 
 def main():
     hi(sys.argv[1])
+
+if __name__=="__main__":
+    main()
