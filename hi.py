@@ -1,8 +1,7 @@
 import sys
 
 def hi(name):
-    print(f"hi, {name}")
+    print(f"hi, {name}!")
 
 def main():
-    argc = sys.argv[1:]
-    hi(argc)
+    hi(sys.argv[1])
