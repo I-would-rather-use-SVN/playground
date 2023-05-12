@@ -4,8 +4,7 @@ def hello(name):
     print(f"Hello {name}")
 
 def main():
-    args = sys.argv[1:]
-    hello(args[0])
+    hello(sys.argv[1])
 
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
