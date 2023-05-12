@@ -5,4 +5,7 @@ def hi(name):
 
 def main():
     argc = sys.argv[1:]
-    hi(argc)
+    hi(argc[0])
+
+if __name__=="__main__":
+    main()
